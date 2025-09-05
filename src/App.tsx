@@ -27,6 +27,7 @@ import BackupSync from "./pages/BackupSync";
 import Calendar from "./pages/Calendar";
 import AccountsReceivable from "./pages/AccountsReceivable";
 import OutsourcedOrders from "./pages/OutsourcedOrders";
+import Profit from "./pages/Profit";
 
 const queryClient = new QueryClient();
 
@@ -45,6 +46,7 @@ const App = () => (
                 <main className="flex-1 overflow-auto custom-scrollbar">
                   <Routes>
                     <Route path="/" element={<Dashboard />} />
+                    <Route path="/profit" element={<Profit />} />
                     <Route path="/products" element={<Products />} />
                     <Route path="/sales" element={<Sales />} />
                     <Route path="/orders" element={<Orders />} />

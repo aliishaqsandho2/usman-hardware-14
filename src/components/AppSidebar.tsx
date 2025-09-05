@@ -55,6 +55,11 @@ const mainItems: MenuItem[] = [
     icon: Home,
   },
   {
+    title: "Profit",
+    url: "/profit",
+    icon: PieChart,
+  },
+  {
     title: "Products",
     url: "/products",
     icon: Package,
