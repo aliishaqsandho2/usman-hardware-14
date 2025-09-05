@@ -19,6 +19,7 @@ import {
   Star,
   Clock
 } from "lucide-react";
+import ProfitMainChart from "@/components/profit/ProfitMainChart";
 import {
   LineChart,
   Line,
@@ -522,6 +523,9 @@ export default function Profit() {
 
       {/* Overview Cards */}
       <OverviewCards />
+
+      {/* Main Profit Chart */}
+      <ProfitMainChart />
 
       {/* Main Content Tabs */}
       <Tabs defaultValue="performance" className="space-y-6">
